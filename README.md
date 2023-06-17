@@ -6,7 +6,7 @@ SLAM, VO, and SFM are disciplines used to achieve 3D reconstruction. SLAM, origi
 
 As an ill-posed problem, monocular RGB 3D reconstruction has been approached from various perspectives, combining different techniques. An early classification categorized methods as feature- or appearance-based, but it failed to encompass all the state-of-the-art SLAM, VO, and SFM techniques. A more comprehensive taxonomy based on the study of (Engel, Koltun, & Cremers, 2017) was described in [see taxonomy](https://github.com/erickherreraresearch/TaxonomyPureVisualMonocularSLAM) provides a better framework, considering three classifications: dense, sparse, direct, indirect, classic, and machine learning-based approaches. This taxonomy offers a more thorough classification of monocular RGB 3D reconstruction systems. In the same work, the authors listed 42 methods classified according to this extended taxonomy. However, upon careful analysis, it was found that many of these methods were inadequately evaluated on large datasets or under different motion patterns and lighting conditions. Moreover, some studies did not test the methods for indoor and outdoor environments, and the reported results were not always obtained using the same metrics, making it challenging to compare and select the most suitable methods. Additionally, most studies compared their results to existing state-of-the-art methods, presenting average mean or median values without providing inferential statistical analysis, making the reported differences or improvements insignificant.
 
-This is the official repository for the article: "Comparison of Monocular Visual SLAM and Visual Odometry Methods Applied to 3D Reconstruction", where we provide the full database that was gathered after more than 10000 executions of ten monocular pure visual SLAM, VO, or SFM methods that were selected based on the extended taxonomy described in [see taxonomy](https://github.com/erickherreraresearch/TaxonomyPureVisualMonocularSLAM). The selected methods and their codifications are listed in table 1:
+This is the official repository for the article: "Comparison of Monocular Visual SLAM and Visual Odometry Methods Applied to 3D Reconstruction", where we provide the full database that was gathered after more than 10000 executions of ten monocular pure visual SLAM, VO, or SFM methods that were selected based on the extended taxonomy described in [see taxonomy](https://github.com/erickherreraresearch/TaxonomyPureVisualMonocularSLAM). The selected methods and their codifications are listed in Table 1:
 ### Table 1. Selected methods
 | Method | Codification | Category | Github Repository |
 | --- | --- | --- | --- |
@@ -20,3 +20,9 @@ This is the official repository for the article: "Comparison of Monocular Visual
 | DynaSLAM | dyna_bw ; dyna_fw | ml + sparse + indirect | [code](https://github.com/BertaBescos/DynaSLAM) |
 | CNN-DSO | cnn-dso_bw ; cnn-dso_fw | ml + sparse + direct | [code](https://github.com/muskie82/CNN-DSO) |
 | CNN-SVO | cnn-svo_bw ; cnn-svo_fw | ml + sparse + hybrid | [code](https://github.com/yan99033/CNN-SVO) |
+
+Each method was implemented following the instructions provided in each official repository. The algorithms were evaluated using the monocular benchmark TUM-Mono of (Engel, Usenko, & Cremers, 2016) [see open source code](https://cvg.cit.tum.de/data/datasets/mono-dataset). In the experimental stage, each algorithm was executed ten times forward and ten times backward on each of the 50 sequences of the TUM-Mono dataset. The estimated trajectories for the ten algorithms are provided as suplementarý .zip files in this repository.
+
+In addition, we provide sample videos of the execution of each algorithm:
+
+# ORB-SLAM2
