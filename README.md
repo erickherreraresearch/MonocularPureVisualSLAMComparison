@@ -23,6 +23,8 @@ This is the official repository for the article: "Comparison of Monocular Visual
 
 Each method was implemented following the instructions provided in each official repository. The algorithms were evaluated using the monocular benchmark TUM-Mono of (Engel, Usenko, & Cremers, 2016) [see open source code](https://cvg.cit.tum.de/data/datasets/mono-dataset). In the experimental stage, each algorithm was executed ten times forward and ten times backward on each of the 50 sequences of the TUM-Mono dataset. The estimated trajectories for the ten algorithms are provided as suplementarý .zip files in this repository.
 
-In addition, we provide sample videos of the execution of each algorithm:
+In addition, we provide sample videos of the execution of each algorithm. As examples for indoor sequences, we selected sequence_01 of the TUM-Mono dataset, whereas for outdoor performance we selected sequence_29.
 
 # ORB-SLAM2
+### Sequence 01 (indoor)
+[![Watch the video](https://img.youtube.com/vi/MFlmBsxEDKE/maxresdefault.jpg)](https://www.youtube.com/MFlmBsxEDKE)
