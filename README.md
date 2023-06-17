@@ -27,4 +27,4 @@ In addition, we provide sample videos of the execution of each algorithm. As exa
 
 # ORB-SLAM2
 ### Sequence 01 (indoor)
-[![Watch the video](https://img.youtube.com/vi/MFlmBsxEDKE/maxresdefault.jpg)](https://youtu.be/MFlmBsxEDKE)
+[![Everything Is AWESOME](https://yt-embed.herokuapp.com/embed?v=MFlmBsxEDKE)](https://www.youtube.com/watch?v=MFlmBsxEDKE "Everything Is AWESOME")
