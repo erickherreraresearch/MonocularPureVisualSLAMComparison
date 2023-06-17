@@ -8,8 +8,8 @@ As an ill-posed problem, monocular RGB 3D reconstruction has been approached fro
 
 This is the official repository for the article: "Comparison of Monocular Visual SLAM and Visual Odometry Methods Applied to 3D Reconstruction", where we provide the full database that was gathered after more than 10000 executions of ten monocular pure visual SLAM, VO, or SFM methods that were selected based on the extended taxonomy described in [see taxonomy](https://github.com/erickherreraresearch/TaxonomyPureVisualMonocularSLAM). The selected methods and their codifications are listed in table 1:
 ### Table 1. Selected methods
-| Method | Codification | Category |
-| --- | --- | --- |
+| Method | Codification | Category | Github Repository |
+| --- | --- | --- | --- |
 | ORB-SLAM2 | orb2_bw ; orb2_fw | classic + sparse + indirect | [code](https://github.com/raulmur/ORB_SLAM2) |
 | DF-ORB-SLAM | df-orb_bw ; df-orb_fw | classic + dense + indirect | [code](https://github.com/834810269/DF-ORB-SLAM) |
 | LSD-SLAM | lsd_bw ; lsd_fw | classic + dense + direct | [code](https://github.com/tum-vision/lsd_slam) |
