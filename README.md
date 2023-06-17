@@ -27,5 +27,5 @@ In addition, we provide sample videos of the execution of each algorithm. As exa
 
 # ORB-SLAM2
 ### Sequence 01 (indoor)
-[Video_title](https://github.com/erickherreraresearch/MonocularPureVisualSLAMComparison/blob/main/Videos/ORB-SLAM2%20evaluated%20on%20sequence_01%20of%20TUM-Mono%20dataset.mp4)
+[![Watch the video](https://img.youtube.com/vi/MFlmBsxEDKE/maxresdefault.jpg)](https://youtu.be/MFlmBsxEDKE)
 
