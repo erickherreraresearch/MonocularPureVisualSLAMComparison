@@ -48,3 +48,10 @@ In addition, we provide sample videos of the execution of each algorithm. As exa
 [![Watch the video](https://img.youtube.com/vi/zqmbuCIR2Ls/hqdefault.jpg)](https://youtu.be/zqmbuCIR2Ls)
 ### Sequence 29 (outdoor)
 [![Watch the video2](https://img.youtube.com/vi/OJt4YLaBJZk/hqdefault.jpg)](https://youtu.be/OJt4YLaBJZk)
+
+# LDSO
+### Sequence 01 (indoor)
+[![Watch the video](https://img.youtube.com/vi/4Baucx413Y0/hqdefault.jpg)](https://youtu.be/4Baucx413Y0)
+### Sequence 29 (outdoor)
+[![Watch the video2](https://img.youtube.com/vi/VGuig4gwE98/hqdefault.jpg)](https://youtu.be/VGuig4gwE98)
+
