@@ -60,3 +60,5 @@ In addition, we provide sample videos of the execution of each algorithm. As exa
 [![Watch the video](https://img.youtube.com/vi/ltKNP0d1d9E/hqdefault.jpg)](https://youtu.be/ltKNP0d1d9E)
 ### Sequence 29 (outdoor)
 [![Watch the video2](https://img.youtube.com/vi/1h_pUdWEdKU/hqdefault.jpg)](https://youtu.be/1h_pUdWEdKU)
+
+# DynaSLAM
